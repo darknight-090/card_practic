@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    justify-content: center;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: black;
+    border-radius: 50px;
+}
+.text-container h2{
+    font-size: 30px;
+}
+.text-container p{
+    font-size: 20px;
+}
+.rating-container{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin: 15px auto;
+}
+.rating-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 20px;
+    padding-block: 15px;
+    background-color: black;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: 0.3s ease all;
+    cursor: pointer;
+}
+.rating-item:hover{
+    background-color:hsl(25, 97%, 53%) ;
+}
+button:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
